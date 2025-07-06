@@ -70,7 +70,7 @@ print(f"MAE: {mae:.2f}")
 print(f"MAPE: {mape:.2f}%")
 print(f"R²: {r2:.3f}")
 
-# 8. Predykcja na konkretny dzień (08-05-2025) dla produktu o wyznaczonych parametrach
+# 8. Predykcja na konkretny dzień (08-05-2025) dla produktu o wyznaczonych parametrach (wprowadzone parametry są edytowalne)
 target_date = pd.Timestamp("2025-05-08")
 days_since_start = (target_date - df['date_added'].min()).days
 example = pd.DataFrame([{
