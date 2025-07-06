@@ -136,7 +136,7 @@ img = mpimg.imread('simplified_tree.png')
 plt.figure(figsize=(20, 10))
 plt.imshow(img)
 plt.axis('off')
-plt.title("Pierwsze drzewo decyzyjne XGBoost")
+plt.title("Pierwsze drzewo XGBoost")
 plt.show()
 
 #13. Kody odpowiadające zmiennym
