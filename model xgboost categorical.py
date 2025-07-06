@@ -121,7 +121,7 @@ import graphviz
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
-# 12. Drzewo decyzyjne - wizualizacja
+# 12. Drzewo - wizualizacja
 dot_source = to_graphviz(best_model, tree_idx=0, rankdir='LR').source
 
 dot_source = re.sub(r'gain=([-+]?[0-9]*\.?[0-9]+)', lambda m: f"gain={int(round(float(m.group(1))))}", dot_source)
